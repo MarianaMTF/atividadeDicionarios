@@ -11,4 +11,4 @@ def chave(dicionario):
     print(chave)
 dicionario={}
 dicionario=adicionar(dicionario)
-print(dicionario)
+chave(dicionario)
