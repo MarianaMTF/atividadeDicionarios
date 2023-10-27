@@ -1,7 +1,7 @@
 def adicionar(dicionario):
   while True:
     nome=input("digite o nome(digite sair para encerrar):")
-    if nome == "sair":
+    if nome=="sair":
       break
     idade=int(input("digite a idade:"))
     dicionario[nome]=idade
